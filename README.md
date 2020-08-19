@@ -1,2 +1,2 @@
 # Hobby-PY
-This is a scribbled python code
+This python codes are scribbled during my free time
