@@ -21,6 +21,16 @@ class Numberphile:
         else:
             return 'stack_error'
 
+    def prime(self,n):
+        if n > 1:
+            for i in range(2, n):
+                if (n % i) == 0:
+                    print(n, "is not a prime number", "\n")
+                    break
+            else:
+                print(n, "is a prime number", "\n")
+        else:
+            print(n, "is not a prime number", "\n")
 
     def squr(self, n):  # Method for Square
         print("Square of ", n, "is", n * n, "\n")
@@ -44,6 +54,7 @@ try:
 
     Num_object.squr(n)
     Num_object.cube(n)
+    Num_object.prime(n)
     Num_object.binary(n)
     Num_object.octal(n)
     Num_object.hexal(n)
