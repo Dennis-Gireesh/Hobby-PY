@@ -1,4 +1,4 @@
-# This program ask you for a number and print the following
+# This is my first python program that ask you for a number and print the following
 # Its multiplication table upto 15
 #Factorial
 #Square
