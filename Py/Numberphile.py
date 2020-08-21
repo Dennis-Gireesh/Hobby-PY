@@ -1,6 +1,12 @@
 # This program ask you for a number and print the following
 # Its multiplication table upto 15
-#
+#Factorial
+#Square
+#Cube
+#Prime or not
+#binary representation
+#Octal representation
+#Hexal representation
 # This is written using Class of python
 import sys
 sys.setrecursionlimit(10**6)# the setrecursionlimit function is used to modify the default recursion to avoid stack overflow
